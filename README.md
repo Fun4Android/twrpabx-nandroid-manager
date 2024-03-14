@@ -1,4 +1,5 @@
-    #build twrpabx and install it into my linux, or download from https://github.com/diyism/twrpabx/releases/tag/0.0.1 and run "install twrpabx" in linux
+    #build twrpabx and install it into my linux
+    #or download from https://github.com/diyism/twrpabx/releases/tag/0.0.1 and run "install twrpabx" in linux
     autoconf && ./configure && make && sudo make install
 
     adb backup --twrp
