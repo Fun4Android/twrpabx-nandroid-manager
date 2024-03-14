@@ -14,4 +14,4 @@
 
 twrpabx: Convert TWRP ADB format(backup.ab) into TWRP/nandroid format(data.f2fs.win)
 
-TWRP(teamwin recovery) + twrpabx + nandroid manager can replace Titanium Backup Pro
+"TWRP(teamwin recovery) + twrpabx + nandroid manager app" can replace Titanium Backup Pro
