@@ -12,7 +12,7 @@
                            //so we need push it into phone and let nandroid manager to decrypt it
     adb push data.f2fs.win /sdcard/TWRP/BACKUPS/00000/
     adb install nandroid_manager_v3.0_alpha-9.apk
-    #open nandroid manager in my android phone, maybe pop up busybox installation
+    #open nandroid manager in my android phone, maybe pop up busybox installation(need reinstall busybox every reboot)
     #nandroid manager found "00000", click "00000", click "RESTORE DATA", 
     #click "Restore Apps+Data", loading all apps, select apps, click "RESTORE" button
 
