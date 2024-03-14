@@ -4,7 +4,8 @@
 
     #"power button + volume up" to reboot my phone into teamwin recovery
     #in my linux, run these commands:
-    adb backup --twrp      //while in my phone's teamwin recovery, select only "Data" partition, the file backup.ab maybe over 20GB
+    adb backup --twrp      //while in my phone's teamwin recovery, select only "Data" partition,
+                           //get the file backup.ab, it may be over 30GB
     twrpabx backup.ab      //convert backup.ab into data.f2fs.win
     adb push data.f2fs.win /sdcard/TWRP/BACKUPS/00000/
     adb install nandroid_manager_v3.0_alpha-9.apk
