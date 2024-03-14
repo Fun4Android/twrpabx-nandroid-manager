@@ -12,6 +12,6 @@
     #nandroid manager found "00000", click "00000", click "RESTORE DATA", 
     #click "Restore Apps+Data", loading all apps, select apps, click "RESTORE" button
 
-Extractor for TWRP ADB backup format
+twrpabx: Convert TWRP ADB format(backup.ab) into TWRP/nandroid format(data.f2fs.win)
 
-Output format is one or more files in TWRP in-place backup format
+TWRP(teamwin recovery) + twrpabx + nandroid manager can replace Titanium Backup Pro
