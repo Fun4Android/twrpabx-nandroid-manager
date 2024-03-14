@@ -16,6 +16,10 @@
     #nandroid manager found "00000", click "00000", click "RESTORE DATA", 
     #click "Restore Apps+Data", loading all apps, select apps, click "RESTORE" button
 
+    #you can also use "EXPLORE BACKUP" to export the apks, for example in "<root>/app/com.one.myapp/",
+    #there are "base.apk, split_config.arm64_v8a.apk, split_config.xxhdpi.apk" these 3 apks for this 1 app,
+    #I can "adb pull /sdcard/*.apk", and "adb install-multiple -r base.apk split_config.arm64_v8a.apk split_config.xxhdpi.apk"
+
 twrpabx: Convert TWRP ADB format(backup.ab) into TWRP/nandroid format(data.f2fs.win)
 
 "TWRP(teamwin recovery) + twrpabx + nandroid manager app" can replace Titanium Backup Pro
