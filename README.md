@@ -15,3 +15,9 @@
 twrpabx: Convert TWRP ADB format(backup.ab) into TWRP/nandroid format(data.f2fs.win)
 
 "TWRP(teamwin recovery) + twrpabx + nandroid manager app" can replace Titanium Backup Pro
+
+Redmi K30用了整三年后一次充电拔线后启动卡死在G logo页面,
+到teamwin recovery里wipe掉cache和dalvik cache仍不能正常启动,
+可能是data分区某个系统设置有损坏,
+执行factory reset能启动, 但会清空data分区所有应用,
+最后用adb backup --twrp+twrpabx+nandroid manager修复
