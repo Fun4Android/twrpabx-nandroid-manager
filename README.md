@@ -9,7 +9,7 @@
     twrpabx backup.ab      //convert backup.ab into data.f2fs.win
                            //the data.f2fs.win is a tar file, we can "archivemount data.f2fs.win /mnt/tar"
                            //but the files in /mnt/tar are FBE(file based encrypted) format
-                           //so we need push it into phone and let nandroid manager to descrypt it
+                           //so we need push it into phone and let nandroid manager to decrypt it
     adb push data.f2fs.win /sdcard/TWRP/BACKUPS/00000/
     adb install nandroid_manager_v3.0_alpha-9.apk
     #open nandroid manager in my android phone, maybe pop up busybox installation
