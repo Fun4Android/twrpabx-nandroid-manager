@@ -1,10 +1,10 @@
 dnl Process this file with autoconf to produce a configure script.
 
-AC_PREREQ([2.71])
-AC_INIT([twrpabx],[0.1])
+AC_PREREQ(2.59)
+AC_INIT(twrpabx, 0.1)
 AC_PROG_CC
 
-AC_CANONICAL_TARGET
+AC_CANONICAL_SYSTEM
 
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_HEADERS([src/twrpabx_config.h])
